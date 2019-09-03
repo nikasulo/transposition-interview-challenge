@@ -16,4 +16,14 @@ class Deque
         @last = @last.next_node
     end
 
+    def popFront
+        raise 'Deque is empty' if @first.value.nil?
+        if @last == @first
+            @first = Node.new(nil)
+            @last = @first
+            return 
+        end
+        @first = @first.next_node
+    end
+
 end
