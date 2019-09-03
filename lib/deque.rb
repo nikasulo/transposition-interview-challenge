@@ -10,4 +10,10 @@ class Deque
         @last = @first if @last.value.nil?
     end
 
+    def pushBack(number)
+        self.pushFront(number) && return if @first.value.nil?
+        @last.next_node = Node.new(number)
+        @last = @last.next_node
+    end
+
 end
