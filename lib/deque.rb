@@ -17,7 +17,6 @@ class Deque
     end
 
     def popFront
-        raise 'Deque is empty' if @first.value.nil?
         if @last == @first
             @first = Node.new(nil)
             @last = @first
@@ -29,7 +28,7 @@ class Deque
     def empty_into_array(array)
         current = @first
         while current do
-            array << current.value
+            array << current.value unless current.value == nil
             self.popFront
             current = current.next_node
         end
@@ -50,11 +49,11 @@ class Deque
     end
 end
 
-d = Deque.new
-res = []
-d.pushFront(12)
-d.pushBack(11)
-d.pushBack(54)
-d.empty_into_array(res)
-p res
-p d
+# d = Deque.new
+# res = []
+# d.pushFront(12)
+# d.pushBack(11)
+# d.pushBack(54)
+# d.empty_into_array(res)
+# p res
+# p d
