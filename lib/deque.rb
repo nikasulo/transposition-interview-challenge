@@ -40,4 +40,9 @@ class Deque
         @first.value
     end
 
+    def topBack
+        raise 'Empty' if self.empty?
+        @last.value
+    end
+
 end
