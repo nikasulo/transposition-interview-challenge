@@ -45,4 +45,16 @@ class Deque
         @last.value
     end
 
+    def empty?
+        @first.value.nil?
+    end
 end
+
+d = Deque.new
+res = []
+d.pushFront(12)
+d.pushBack(11)
+d.pushBack(54)
+d.empty_into_array(res)
+p res
+p d
