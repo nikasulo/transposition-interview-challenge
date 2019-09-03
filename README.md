@@ -4,7 +4,6 @@
 This is the solution to the transposition coding challenge using a deque
 
 ### Problem Statement
-Transposition
 A Transposition Error is when two letters are swapped, such as in "hte" instead of "the", or "rign" instead of "ring".
 Given a string of characters, can you fix every place where "gn"  appears so it becomes "ng" instead? If there are multiple "g"s in a row,  the "n" should be swapped with the first "g". No "gn" should appear in  the final text, so be careful with all possibilities!
 
