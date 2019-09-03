@@ -12,7 +12,7 @@ def transposer(string)
             deque.pushFront(string[ i ])
             next
         else
-            deque.empty_into_array(result) unless deque.empty?
+            deque.empty_into(result) unless deque.empty?
         end
         
         

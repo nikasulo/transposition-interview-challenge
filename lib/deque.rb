@@ -25,10 +25,10 @@ class Deque
         @first = @first.next_node
     end
 
-    def empty_into_array(array)
+    def empty_into(container)
         current = @first
         while current do
-            array << current.value unless current.value == nil
+            container << current.value unless current.value == nil
             self.popFront
             current = current.next_node
         end
