@@ -17,13 +17,13 @@ Examples
 The following are 3 test cases:
 
 * puts transpose('he was searchign on Bign for signign kigns')
-> # => he was searching on Bing for singing kings
+> => he was searching on Bing for singing kings
 
 * puts transpose('rignadingdiggn!')
-> # => ringadingdingg!
+> => ringadingdingg!
 
 * puts transpose('gngngnnggnngggnnn')
-> # => nnnnnnnnngggggggg
+> => nnnnnnnnngggggggg
 
 ### Explanation
 Currently working on a tutorial to share my understanding.
