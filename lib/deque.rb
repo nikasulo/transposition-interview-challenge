@@ -35,4 +35,9 @@ class Deque
         end
     end
 
+    def topFront
+        raise 'Empty' if self.empty?
+        @first.value
+    end
+
 end
