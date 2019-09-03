@@ -26,4 +26,13 @@ class Deque
         @first = @first.next_node
     end
 
+    def empty_into_array(array)
+        current = @first
+        while current do
+            array << current.value
+            self.popFront
+            current = current.next_node
+        end
+    end
+
 end
