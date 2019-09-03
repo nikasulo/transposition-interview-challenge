@@ -28,5 +28,4 @@ The following are 3 test cases:
 ### Explanation
 Currently working on a tutorial to share my understanding.
 
-## Follow me on [Medium](https://medium.com/@oluwadamilareo_), [Twitter](https://twitter.com/oluwadamilareo_) and [Instagram](https://instagram.com/oluwadamilareolusakin)
-to find out when I post tutorials! 
+## Follow me on [Medium](https://medium.com/@oluwadamilareo_), [Twitter](https://twitter.com/oluwadamilareo_) and [Instagram](https://instagram.com/oluwadamilareolusakin) to find out when I post tutorials! 
